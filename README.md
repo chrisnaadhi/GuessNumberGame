@@ -1,7 +1,9 @@
 # GuessNumberGame
-A Game about Guessing Number
+Sebuah Game Tebak Angka
 
-Run it on your Python Environment.
+Install Python <a href="https://www.python.org/downloads/" target="_blank">asd</a><br>
+Jalankan menggunakan Python di perangkat anda :
+
 > python main.py
 
 or
