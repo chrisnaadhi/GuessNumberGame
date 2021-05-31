@@ -31,7 +31,7 @@ try:
       elif guess_number < number:
         print("Angka yang kamu masukkan sepertinya terlalu rendah. Coba Lagi!")
       elif guess_number == number:
-        print(f"Selamat! Tebakanmu tepat, angka yang tepat adalah {number}")
+        print(f"Selamat! Tebakanmu tepat, angkanya {number}")
         restart_game()
         break
     else:
@@ -39,19 +39,18 @@ try:
       restart_game()
 
   def restart_game():
-    restart = (input("Mau Coba Lagi ? [Y/N]: "))
+    restart = str(input("Mau main Lagi ? [Y/N]: "))
     if restart == "Y" or restart == "y":
       guess_game()
     elif restart == "N" or restart == "n":
       print("Terima Kasih sudah Bermain!")
     else:
       print("Anda Tahu ? Anda baru saja mengetik sesuatu yang tidak dimengerti oleh Program ini!")
-      webbrowser.open_new_tab("https://kiwifarms.net/attachments/gyegeqfx_400x400-jpg.695760/")
   guess_game()
 
 except ValueError:
-  print("Error! Anda hanya bisa menginput angka! Program dihentikan.")
-  restart_game
+  print("Error! Hanya dapat menerima input Angka! Program dihentikan.")
+  restart_game()
 except SyntaxError:
   print("!!!!!!!!!!!!!!!!!!!!!!")
 
