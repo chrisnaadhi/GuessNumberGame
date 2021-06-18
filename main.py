@@ -1,5 +1,4 @@
 import random
-import webbrowser
 
 print("""Tebak angka berdasarkan baris dari angka yang kamu mau!
 Cobalah untuk menebak angka yang telah dibuat secara acak oleh program ini dalam 5 kali percobaan.
