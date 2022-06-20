@@ -51,5 +51,5 @@ except ValueError:
   print("Error! Hanya dapat menerima input Angka! Program dihentikan.")
   restart_game()
 except SyntaxError:
-  print("!!!!!!!!!!!!!!!!!!!!!!")
+  print("There is Syntax Error")
 
